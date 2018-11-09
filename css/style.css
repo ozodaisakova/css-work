@@ -1,0 +1,14 @@
+.ozi-container{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2vw;
+}
+.ozi-container>div{
+  font-size: 5vw;
+  padding: .5em;
+  background: beige;
+  box-shadow: 10px 10px 15px gray;
+  text-align: center;
+}
+/
